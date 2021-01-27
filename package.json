@@ -1,0 +1,31 @@
+{
+  "name": "bioyuan-cli",
+  "version": "1.0.1",
+  "description": "This is a vue-cli for bioyuan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bio-des": "bin/des",
+    "bio": "bin/www"
+  },
+  "keywords": [
+    "bioyuan",
+    "vue-cli"
+  ],
+  "author": "wangyu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "open": "^7.3.1",
+    "ora": "^5.2.0",
+    "watch": "^1.0.2"
+  }
+}
